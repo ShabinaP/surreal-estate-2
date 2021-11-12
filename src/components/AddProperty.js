@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Alert from './Alert';
+import StyledAddProperty from '../styled-components/AddProperty.styled';
 
 const AddProperty = () => {
   const initialState = {
@@ -50,6 +51,7 @@ const AddProperty = () => {
     setFields({ ...fields, [event.target.name]: event.target.value });
   };
   return (
+    <StyledAddProperty>
     <div className="background">
       <div className="Addproperty">
         <h2>Add a Property</h2>
@@ -169,6 +171,7 @@ const AddProperty = () => {
         </form>
       </div>
     </div>
+    </StyledAddProperty>
   );
 };
 
