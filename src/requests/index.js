@@ -13,7 +13,7 @@ const filterProperties = (search, setProperties, setAlert) =>
     .get(`${endpoint}PropertyListing${search}`)
     .then(({ data }) => {
       if (data.length === 0) {
-        setAlert({ message: "No properties found", isSuccess: true });
+        setAlert({ message: "Sorry, no properties found", isSuccess: true });
         setProperties(data);
       } else {
         setAlert({ message: "", isSuccess: false });

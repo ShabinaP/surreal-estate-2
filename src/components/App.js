@@ -1,11 +1,11 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import {  Routes, Route } from 'react-router-dom';
-import NavBar from './components/Navbar';
-import Properties from './components/Properties';
-import AddProperty from './components/AddProperty';
-import Header from './components/Header';
-import Container from './styled-components/Container.styled';
+import NavBar from './Navbar';
+import Properties from './Properties';
+import AddProperty from './AddProperty';
+import Header from './Header';
+import Container from '../styled-components/Container.styled';
 
 const theme = {
   colors: {

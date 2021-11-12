@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component if message is empty, no message is rendered 1`] = `<DocumentFragment />`;
+
+exports[`Alert component renders a successful message when submisson is successful 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-success"
+  >
+    Success!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert component renders an error message if submission is unsuccessful 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-error"
+  >
+    Error!
+  </div>
+</DocumentFragment>
+`;
